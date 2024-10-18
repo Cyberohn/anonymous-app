@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "vite build && cd backend && node app.cjs"
+    "start": "vite --host"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
